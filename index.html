@@ -1,242 +1,743 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="/static/img/favicon.ico" sizes="192x192" />
-    <link rel="apple-touch-icon" href="/static/img/favicon.ico" />
-    <title>Kamamie Quickfast Homecare - Countrywide Home-Based Medical & Personal Care in Kenya</title>
+    <title>Kamamie Quickfast Homecare — Compassionate Homecare in Kenya</title>
+    <meta name="description" content="Thoughtful, dependable homecare in Kenya. Kamamie Quickfast Homecare provides personal care, elderly companionship, daily living support, household help and respite care in the comfort of your own home. Call +254 704 232 430.">
+    <meta name="theme-color" content="#16462e">
+    <link rel="canonical" href="https://www.kamamiequickfasthomecare.co.ke/">
 
-    <link rel="stylesheet" href="/static/css/tailwind.css">
-    <link rel="stylesheet" href="/static/css/swiper-bundle.min.css">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Kamamie Quickfast Homecare">
+    <meta property="og:title" content="Kamamie Quickfast Homecare — Compassionate Homecare in Kenya">
+    <meta property="og:description" content="Exceptional care, right where you feel at home. Personal care, elderly companionship, daily living support, household help and respite care across Kenya.">
+    <meta property="og:url" content="https://www.kamamiequickfasthomecare.co.ke/">
+    <meta property="og:image" content="https://www.kamamiequickfasthomecare.co.ke/static/img/care-hero.jpg">
+    <meta property="og:locale" content="en_KE">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kamamie Quickfast Homecare — Compassionate Homecare in Kenya">
+    <meta name="twitter:description" content="Exceptional care, right where you feel at home. Personal care, elderly companionship, daily living support and respite care across Kenya.">
+    <meta name="twitter:image" content="https://www.kamamiequickfasthomecare.co.ke/static/img/care-hero.jpg">
+
+    <link rel="icon" type="image/png" href="/static/img/logo.png">
+    <link rel="apple-touch-icon" href="/static/img/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..800&family=Plus+Jakarta+Sans:wght@400..800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="/static/css/custom.css">
 
-    <meta name="robots" content="index, follow">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="language" content="English">
-    <meta name="author" content="Kamamie Quickfast Homecare">
-
-    <meta property="og:title" content="Kamamie Quickfast Homecare - Countrywide Home-Based Medical & Personal Care in Kenya">
-    <meta property="og:description" content="Professional wound care, home nursing, patient monitoring, elderly care, medication support & consultation services.">
-    <meta property="og:image" content="/static/img/logo.png">
-    <meta property="og:type" content="website">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HomeHealthCareService",
+      "name": "Kamamie Quickfast Homecare",
+      "description": "Countrywide home-based care in Kenya providing personal care, elderly care and companionship, assistance with daily activities, household support and respite care.",
+      "url": "https://www.kamamiequickfasthomecare.co.ke/",
+      "telephone": "+254704232430",
+      "areaServed": { "@type": "Country", "name": "Kenya" },
+      "availableChannel": [
+        { "@type": "ServiceChannel", "servicePhone": { "@type": "ContactPoint", "telephone": "+254704232430" } },
+        { "@type": "ServiceChannel", "serviceUrl": "https://wa.me/254715240358" }
+      ],
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "00:00",
+        "closes": "23:59"
+      }
+    }
+    </script>
 </head>
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
 
-<body class="overflow-x-hidden">
-    <nav class="main-menu lg:sticky py-3 z-10 top-0 w-screen" style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px) saturate(180%); -webkit-backdrop-filter: blur(10px) saturate(180%); box-shadow: 0 4px 30px rgba(0,0,0,0.1); border-bottom: 1px solid rgba(255,255,255,0.3);">
-        <div class="container mx-auto w-full">
-            <div class="flex items-center justify-between w-full py-2 lg:py-0">
-                <a href="/">
-                    <img src="/static/img/banner-logo.png" alt="Kamamie Quickfast Homecare logo" style="height:90px;width:auto;max-height:90px;filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));"> />
+    <!-- ===================== Icon sprite ===================== -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+        <defs>
+            <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></symbol>
+            <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2"/></symbol>
+            <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.174.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.174-.297-.019-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.29.173-1.414-.074-.124-.272-.198-.57-.347z"/><path d="M12.04 2c-5.46 0-9.9 4.44-9.9 9.9 0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.79 1.21 5.46 0 9.9-4.44 9.9-9.9S17.5 2 12.04 2zm0 18.02c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.19-.31a8.03 8.03 0 0 1-1.23-4.26c0-4.44 3.61-8.05 8.05-8.05 2.15 0 4.17.84 5.69 2.36a8.02 8.02 0 0 1 2.36 5.69c0 4.44-3.61 8.05-8.05 8.05z"/></symbol>
+            <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></symbol>
+            <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"/></symbol>
+            <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"/><path d="M3 6.5l9 5.5l9 -5.5"/></symbol>
+            <symbol id="i-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l-2 0l9 -9l9 9l-2 0"/><path d="M5 10v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1 -1v-10"/></symbol>
+            <symbol id="i-heart" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19.5 12.572l-7.5 7.428l-7.5 -7.428a5 5 0 1 1 7.5 -6.566a5 5 0 1 1 7.5 6.572"/></symbol>
+            <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"/><path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/><path d="M21 21v-2a4 4 0 0 0 -3 -3.87"/></symbol>
+            <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6l-11 11l-5 -5"/></symbol>
+            <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="M5 12h14"/></symbol>
+            <symbol id="i-activity" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3 8l4 -16l3 8h4"/></symbol>
+            <symbol id="i-coffee" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8h13v6a4 4 0 0 1 -4 4h-5a4 4 0 0 1 -4 -4z"/><path d="M17 9h1.5a2.5 2.5 0 0 1 0 5h-1.5"/><path d="M7 3v2"/><path d="M11 3v2"/><path d="M15 3v2"/></symbol>
+            <symbol id="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"/></symbol>
+            <symbol id="i-clipboard" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 5h-2a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-12a2 2 0 0 0 -2 -2h-2"/><path d="M9 3m0 2a2 2 0 0 1 4 0v0a2 2 0 0 1 -4 0"/><path d="M9 12h6"/><path d="M9 16h4"/></symbol>
+            <symbol id="i-message" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-8l-5 4"/></symbol>
+            <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a12 12 0 0 0 8.5 3a12 12 0 0 1 -8.5 15a12 12 0 0 1 -8.5 -15a12 12 0 0 0 8.5 -3"/></symbol>
+            <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1l5.1 1.9l-5.1 1.9l-1.9 5.1l-1.9 -5.1l-5.1 -1.9l5.1 -1.9z"/><path d="M19 15l.9 2.1l2.1 .9l-2.1 .9l-.9 2.1l-.9 -2.1l-2.1 -.9l2.1 -.9z"/></symbol>
+        </defs>
+    </svg>
+
+    <!-- ===================== Header ===================== -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="/index.html" class="brand" aria-label="Kamamie Quickfast Homecare — home">
+                <img class="brand__logo" src="/static/img/banner-logo.png" width="124" height="44" alt="Kamamie Quickfast Homecare">
+            </a>
+
+            <nav class="nav" aria-label="Main navigation">
+                <ul class="nav__list">
+                    <li><a class="nav__link is-active" href="/index.html" data-spy>Home</a></li>
+                    <li><a class="nav__link" href="/index.html#about" data-spy>About Us</a></li>
+                    <li><a class="nav__link" href="/index.html#services" data-spy>Our Services</a></li>
+                    <li><a class="nav__link" href="/index.html#why-us" data-spy>Why Choose Us</a></li>
+                    <li><a class="nav__link" href="/index.html#contact" data-spy>Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a class="header-phone" href="tel:+254704232430">
+                    <svg width="18" height="18" aria-hidden="true"><use href="#i-phone"/></svg>
+                    +254 704 232 430
                 </a>
-                <button class="mobile-nav-toggler lg:hidden" type="button" onclick="toggleMenu()">
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon my-2"></span>
-                    <span class="navbar-toggler-icon"></span>
+                <a class="btn btn--primary" href="/index.html#contact">Request Care</a>
+                <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open menu">
+                    <span class="nav-toggle__bar"></span>
+                    <span class="nav-toggle__bar"></span>
+                    <span class="nav-toggle__bar"></span>
                 </button>
-                <div id="dashboardSidebar" class="fixed lg:relative bg-white lg:bg-transparent top-0 h-screen lg:h-auto mobile-menu-sidebar lg:w-auto pt-4 lg:pt-0">
-                    <button class="mobile-nav-close-btn md:hidden" type="button" onclick="toggleMenu()">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-x">
-                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                            <path d="M18 6l-12 12" />
-                            <path d="M6 6l12 12" />
-                        </svg>
-                    </button>
-                    <ul class="flex flex-col lg:flex-row lg:items-center gap-y-2 lg:gap-y-0 gap-x-8 ps-4 lg:ps-0">
-                        <li><a href="#services" class="nav-link">Services</a></li>
-                        <li><a href="#about" class="nav-link">About</a></li>
-                        <li><a href="#contact" class="nav-link">Contact</a></li>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile drawer -->
+    <div class="mobile-nav" id="mobile-nav">
+        <ul class="mobile-nav__list">
+            <li><a class="mobile-nav__link" href="/index.html">Home <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+            <li><a class="mobile-nav__link" href="/index.html#about">About Us <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+            <li><a class="mobile-nav__link" href="/index.html#services">Our Services <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+            <li><a class="mobile-nav__link" href="/index.html#why-us">Why Choose Us <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+            <li><a class="mobile-nav__link" href="/index.html#contact">Contact <svg width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a></li>
+        </ul>
+        <div class="mobile-nav__cta">
+            <a class="btn btn--primary btn--lg btn--block" href="/index.html#contact">Request Care</a>
+            <a class="btn btn--outline btn--lg btn--block" href="tel:+254704232430">Call +254 704 232 430</a>
+        </div>
+        <div class="mobile-nav__meta">
+            <a href="https://wa.me/254715240358"><svg width="18" height="18" aria-hidden="true"><use href="#i-whatsapp"/></svg> WhatsApp +254 715 240 358</a>
+            <span>Open 24 hours, Monday – Sunday</span>
+        </div>
+    </div>
+
+    <main id="main">
+
+        <!-- ===================== Hero ===================== -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="container hero__inner">
+                <div class="hero__content">
+                    <p class="eyebrow">Personalised homecare, with heart</p>
+                    <h1 class="display-xl hero__title" id="hero-title">Exceptional Care. <em>Right Where You Feel at Home.</em></h1>
+                    <p class="lead hero__copy">Thoughtful, dependable homecare designed around your comfort, dignity, and everyday needs. Kamamie Quickfast Homecare helps make life at home more comfortable with care that puts people first.</p>
+                    <div class="hero__actions">
+                        <a class="btn btn--primary btn--lg" href="#contact">Request Care <svg class="btn-arrow" width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                        <a class="btn btn--outline btn--lg" href="#services">Explore Our Services</a>
+                    </div>
+                    <ul class="hero__assurance">
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-clock"/></svg> Open 24 hours, Monday – Sunday</li>
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-pin"/></svg> Countrywide homecare across Kenya</li>
+                        <li>
+                            <svg width="18" height="18" aria-hidden="true"><use href="#i-phone"/></svg>
+                            <a href="tel:+254704232430">+254 704 232 430</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="hero__media">
+                    <div class="hero__frame">
+                        <img src="/static/img/care-hero.jpg" width="1120" height="1400"
+                             alt="A carer and an older woman sitting close together on a sofa in a warm living room, talking and holding hands.">
+                    </div>
+                    <div class="hero__caption">
+                        <span class="hero__caption-icon" aria-hidden="true">
+                            <svg width="20" height="20"><use href="#i-home"/></svg>
+                        </span>
+                        <span>
+                            <span class="hero__caption-title">Homecare that comes to you</span>
+                            <span class="hero__caption-text">Compassionate support in the place you know best.</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== Values strip ===================== -->
+        <section class="values" aria-label="Our service values">
+            <div class="container">
+                <div class="values__inner">
+                    <div class="values__item">
+                        <span class="values__icon" aria-hidden="true"><svg width="22" height="22"><use href="#i-heart"/></svg></span>
+                        <span>
+                            <span class="values__title">Compassionate Support</span>
+                            <span class="values__text">Care delivered with warmth, patience and genuine kindness.</span>
+                        </span>
+                    </div>
+                    <div class="values__item">
+                        <span class="values__icon" aria-hidden="true"><svg width="22" height="22"><use href="#i-spark"/></svg></span>
+                        <span>
+                            <span class="values__title">Personalised Attention</span>
+                            <span class="values__text">Support shaped around your routines, preferences and needs.</span>
+                        </span>
+                    </div>
+                    <div class="values__item">
+                        <span class="values__icon" aria-hidden="true"><svg width="22" height="22"><use href="#i-shield"/></svg></span>
+                        <span>
+                            <span class="values__title">Respect and Dignity</span>
+                            <span class="values__text">Every person treated with courtesy, privacy and respect.</span>
+                        </span>
+                    </div>
+                    <div class="values__item">
+                        <span class="values__icon" aria-hidden="true"><svg width="22" height="22"><use href="#i-clock"/></svg></span>
+                        <span>
+                            <span class="values__title">Dependable Service</span>
+                            <span class="values__text">Organised, reliable help you and your family can count on.</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== Services ===================== -->
+        <section class="section" id="services" aria-labelledby="services-title">
+            <div class="container">
+                <div class="services__head">
+                    <p class="eyebrow">Our services</p>
+                    <h2 class="h2" id="services-title">The Right Support for Everyday Living</h2>
+                    <p class="lead">Support that is built around real life at home — practical, personal and delivered with respect. Tell us what you need and we will talk through what is possible.</p>
+                </div>
+
+                <div class="services__grid services__grid--featured">
+
+                    <article class="service-card service-card--feature">
+                        <div class="service-card__media">
+                            <span class="service-card__num">01</span>
+                            <img src="/static/img/svc-personal-care.jpg" width="800" height="600" loading="lazy"
+                                 alt="A carer gently tending to an older woman's hands while she sits comfortably at home.">
+                        </div>
+                        <div class="service-card__body">
+                            <h3 class="service-card__title">Personal Care</h3>
+                            <p class="service-card__text">Dignified help with the things that matter most — washing, dressing, grooming and moving around your home safely. Our carers work at your pace and protect your privacy at every step.</p>
+                            <div class="service-card__foot">
+                                <a class="link-arrow" href="/services.html#personal-care">Enquire about personal care <svg width="17" height="17" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="service-card service-card--span5">
+                        <div class="service-card__media">
+                            <span class="service-card__num">02</span>
+                            <img src="/static/img/svc-companionship.jpg" width="800" height="600" loading="lazy"
+                                 alt="A carer serving a warm drink to an older woman seated in an armchair by a bright window.">
+                        </div>
+                        <div class="service-card__body">
+                            <h3 class="service-card__title">Elderly Care &amp; Companionship</h3>
+                            <p class="service-card__text">Friendly company, conversation and reassurance for older people who would like someone to talk to, share a meal with, or simply have nearby.</p>
+                            <div class="service-card__foot">
+                                <a class="link-arrow" href="/services.html#elderly-care">Enquire about companionship <svg width="17" height="17" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="service-card service-card--span4">
+                        <div class="service-card__media">
+                            <span class="service-card__num">03</span>
+                            <img src="/static/img/svc-daily-activities.jpg" width="800" height="600" loading="lazy"
+                                 alt="A carer walking alongside an older woman as she comes down a set of indoor stairs holding the rail.">
+                        </div>
+                        <div class="service-card__body">
+                            <h3 class="service-card__title">Assistance with Daily Activities</h3>
+                            <p class="service-card__text">A steady hand with getting up, moving between rooms, preparing light meals, and getting out for appointments or fresh air.</p>
+                            <div class="service-card__foot">
+                                <a class="link-arrow" href="/services.html#daily-activities">Enquire about daily support <svg width="17" height="17" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="service-card service-card--span4">
+                        <div class="service-card__media">
+                            <span class="service-card__num">04</span>
+                            <img src="/static/img/svc-household.jpg" width="800" height="600" loading="lazy"
+                                 alt="A carer tidying a home while an older woman with walking crutches rests on the edge of a bed.">
+                        </div>
+                        <div class="service-card__body">
+                            <h3 class="service-card__title">Household Support</h3>
+                            <p class="service-card__text">Practical help that keeps a home comfortable — light cleaning, laundry, tidying and warm meals, so daily life stays manageable.</p>
+                            <div class="service-card__foot">
+                                <a class="link-arrow" href="/services.html#household-support">Enquire about household help <svg width="17" height="17" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="service-card service-card--span4">
+                        <div class="service-card__media">
+                            <span class="service-card__num">05</span>
+                            <img src="/static/img/svc-respite.jpg" width="800" height="600" loading="lazy"
+                                 alt="A carer gently supporting an older woman's arm as they move together inside a home.">
+                        </div>
+                        <div class="service-card__body">
+                            <h3 class="service-card__title">Respite Care</h3>
+                            <p class="service-card__text">Thoughtful relief for family members who carry a lot. We step in so unpaid carers can rest, work, or take a much-needed break.</p>
+                            <div class="service-card__foot">
+                                <a class="link-arrow" href="/services.html#respite-care">Enquire about respite <svg width="17" height="17" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="service-card service-card--wide">
+                        <div class="service-card__media">
+                            <span class="service-card__num">06</span>
+                            <img src="/static/img/svc-specialised.jpg" width="800" height="600" loading="lazy"
+                                 alt="A carer helping an older woman with grooming in a bright, comfortable room at home.">
+                        </div>
+                        <div class="service-card__body">
+                            <h3 class="service-card__title">Specialised &amp; Individualised Support</h3>
+                            <p class="service-card__text">Every situation is different. When more specific support is needed, we will talk it through and arrange what is appropriate for you. Availability of particular services depends on your location and the support required — so please get in touch and we will be clear about what we can offer.</p>
+                            <div class="service-card__foot">
+                                <a class="link-arrow" href="#contact">Discuss your needs <svg width="17" height="17" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="body-sm muted services__note">
+                    Our focus is day-to-day, non-medical support at home. If you need clinical or nursing care, please tell us — we would rather be honest about what we can and cannot provide than promise something we cannot deliver.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===================== About ===================== -->
+        <section class="section bg-cream" id="about" aria-labelledby="about-title">
+            <div class="container about__inner">
+                <div class="about__content">
+                    <p class="eyebrow">About Kamamie Quickfast Homecare</p>
+                    <h2 class="h2" id="about-title">Care That Respects the Person Behind Every Need.</h2>
+                    <div class="about__text">
+                        <p>Home is familiar. It holds your routines, your things, the people you love. When everyday tasks become harder, being helped at home — rather than somewhere unfamiliar — can make all the difference to how someone feels.</p>
+                        <p>Kamamie Quickfast Homecare provides that support. We take time to understand the person, not just the task: what matters to them, how they like things done, and what independence means to them now. Our approach is calm, respectful and unhurried, because dignity is found in the details.</p>
+                    </div>
+                    <blockquote class="about__quote">
+                        <p>&ldquo;Care is not only about what needs doing. It is about how it feels to be helped.&rdquo;</p>
+                        <cite>The Kamamie Quickfast Homecare approach</cite>
+                    </blockquote>
+                    <ul class="about__list">
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg> Support built around your routine, preferences and pace.</li>
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg> Honest, open communication with you and your family.</li>
+                        <li><svg width="18" height="18" aria-hidden="true"><use href="#i-check"/></svg> Comfort, privacy and dignity at the centre of every visit.</li>
+                    </ul>
+                </div>
+
+                <div class="about__media">
+                    <div class="about__media-main">
+                        <img src="/static/img/care-about.jpg" width="1000" height="1250" loading="lazy"
+                             alt="A carer warmly greeting an older woman at her front door, shaking her hand with a genuine smile.">
+                    </div>
+                    <div class="about__media-inset">
+                        <img src="/static/img/care-hands.jpg" width="640" height="640" loading="lazy"
+                             alt="Close-up of a carer's hands gently holding an older woman's hands in a moment of support.">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== Why choose us ===================== -->
+        <section class="section why" id="why-us" aria-labelledby="why-title">
+            <div class="container why__inner">
+                <div class="why__content">
+                    <p class="eyebrow eyebrow--light">Why choose Kamamie Quickfast</p>
+                    <h2 class="h2" id="why-title">A Different Kind of Homecare.</h2>
+                    <p class="lead why__lead">Care works best when it is built around a person rather than a schedule. Here is how we approach the work.</p>
+
+                    <div class="why__list">
+                        <div class="why-item">
+                            <span class="why-item__num">01</span>
+                            <div>
+                                <h3 class="why-item__title">Care shaped around the individual</h3>
+                                <p class="why-item__text">No two households are the same. We take time to understand your situation before recommending any support.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <span class="why-item__num">02</span>
+                            <div>
+                                <h3 class="why-item__title">Respectful, compassionate interactions</h3>
+                                <p class="why-item__text">Warmth, patience and good manners guide every visit — and your home always remains your space.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <span class="why-item__num">03</span>
+                            <div>
+                                <h3 class="why-item__title">Clear communication with families</h3>
+                                <p class="why-item__text">We keep the people who care about you informed, so nobody is left guessing how things are going.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <span class="why-item__num">04</span>
+                            <div>
+                                <h3 class="why-item__title">Organised and dependable</h3>
+                                <p class="why-item__text">Support is planned and agreed in advance, so you know who is coming and when to expect them.</p>
+                            </div>
+                        </div>
+                        <div class="why-item">
+                            <span class="why-item__num">05</span>
+                            <div>
+                                <h3 class="why-item__title">Comfort and dignity first</h3>
+                                <p class="why-item__text">Being asked before being helped, privacy respected, and space to do what you still can for yourself.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="why__media">
+                    <img src="/static/img/care-consult.jpg" width="900" height="1200" loading="lazy"
+                         alt="A carer sitting with an older woman in a bright room, listening attentively as she speaks.">
+                    <div class="why__media-caption">
+                        <strong>Listening comes first</strong>
+                        <span>Every arrangement starts with a conversation, not a form.</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== How it works ===================== -->
+        <section class="section" id="how-it-works" aria-labelledby="steps-title">
+            <div class="container">
+                <div class="steps__head">
+                    <p class="eyebrow">How it works</p>
+                    <h2 class="h2" id="steps-title">Getting Started Is Simple.</h2>
+                    <p class="lead">Three straightforward steps from your first message to a support plan that suits you.</p>
+                </div>
+
+                <div class="steps__grid">
+                    <div class="step">
+                        <h3 class="step__title">Tell Us What You Need</h3>
+                        <p class="step__text">Share your situation and the kind of support you are looking for. A short conversation is enough to get us started.</p>
+                    </div>
+                    <div class="step">
+                        <h3 class="step__title">Discuss Your Care Needs</h3>
+                        <p class="step__text">We learn more about your preferences, routines and requirements, and answer any questions you or your family have.</p>
+                    </div>
+                    <div class="step">
+                        <h3 class="step__title">Plan Your Support</h3>
+                        <p class="step__text">We agree on the services that suit you and confirm the next steps, so support can begin at a pace that feels right.</p>
+                    </div>
+                </div>
+
+                <div class="steps__foot">
+                    <p>Not sure what you need yet? That is completely fine — we can talk it through.</p>
+                    <a class="link-arrow" href="#contact">Ask us a question <svg width="17" height="17" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== CTA band ===================== -->
+        <section class="cta-band" aria-labelledby="cta-title">
+            <div class="container cta-band__inner">
+                <p class="eyebrow eyebrow--light eyebrow--plain">Let&rsquo;s talk</p>
+                <h2 class="h2" id="cta-title">Let&rsquo;s Make Home Feel Easier.</h2>
+                <p class="cta-band__text">Tell us how we can help. Our team can discuss your needs and help you explore suitable homecare options.</p>
+                <div class="cta-band__actions">
+                    <a class="btn btn--primary btn--lg" href="#contact">Request Care <svg class="btn-arrow" width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+                    <a class="btn btn--ghost-light btn--lg" href="/contact.html">Contact Our Team</a>
+                </div>
+                <p class="cta-band__note">
+                    <svg class="cta-note__icon" width="17" height="17" aria-hidden="true"><use href="#i-phone"/></svg>
+                    Prefer to talk now? Call <a href="tel:+254704232430">+254 704 232 430</a> — we are available 24 hours.
+                </p>
+            </div>
+        </section>
+
+        <!-- ===================== FAQ ===================== -->
+        <section class="section bg-cream" id="faq" aria-labelledby="faq-title">
+            <div class="container faq__inner">
+                <div class="faq__intro">
+                    <p class="eyebrow">Questions</p>
+                    <h2 class="h2" id="faq-title">Things People Often Ask Us</h2>
+                    <p class="lead">Straight answers to the questions we hear most. If yours is not here, just ask — we would rather talk it through.</p>
+                    <div class="faq__help">
+                        <strong>Still deciding?</strong>
+                        <span>Call <a href="tel:+254704232430" class="inline-link">+254 704 232 430</a> or send an enquiry and we will help you work out what support makes sense.</span>
+                    </div>
+                </div>
+
+                <div class="accordion">
+                    <div class="faq-item is-open" data-accordion>
+                        <h3>
+                            <button class="faq-item__btn" type="button" aria-expanded="true" aria-controls="faq-p1" id="faq-q1">
+                                What homecare services do you offer?
+                                <span class="faq-item__icon" aria-hidden="true"><svg width="15" height="15"><use href="#i-plus"/></svg></span>
+                            </button>
+                        </h3>
+                        <div class="faq-item__panel" id="faq-p1" role="region" aria-labelledby="faq-q1">
+                            <div>
+                                <p class="faq-item__answer">We provide non-medical homecare support, including personal care, elderly care and companionship, assistance with daily activities, household support, and respite care for family carers. More specialised support can be discussed on request — availability varies, so please ask.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-accordion>
+                        <h3>
+                            <button class="faq-item__btn" type="button" aria-expanded="false" aria-controls="faq-p2" id="faq-q2">
+                                How do I get started?
+                                <span class="faq-item__icon" aria-hidden="true"><svg width="15" height="15"><use href="#i-plus"/></svg></span>
+                            </button>
+                        </h3>
+                        <div class="faq-item__panel" id="faq-p2" role="region" aria-labelledby="faq-q2">
+                            <div>
+                                <p class="faq-item__answer">Send an enquiry using the form on this page, call us, or message us on WhatsApp. We will ask a few questions about your situation, arrange a conversation, and agree a plan that suits you.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-accordion>
+                        <h3>
+                            <button class="faq-item__btn" type="button" aria-expanded="false" aria-controls="faq-p3" id="faq-q3">
+                                Can care be tailored to individual needs?
+                                <span class="faq-item__icon" aria-hidden="true"><svg width="15" height="15"><use href="#i-plus"/></svg></span>
+                            </button>
+                        </h3>
+                        <div class="faq-item__panel" id="faq-p3" role="region" aria-labelledby="faq-q3">
+                            <div>
+                                <p class="faq-item__answer">Yes. Support is arranged around your own routine, preferences and pace. Tell us what matters most to you and we will shape the support around it.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-accordion>
+                        <h3>
+                            <button class="faq-item__btn" type="button" aria-expanded="false" aria-controls="faq-p4" id="faq-q4">
+                                Which areas do you serve?
+                                <span class="faq-item__icon" aria-hidden="true"><svg width="15" height="15"><use href="#i-plus"/></svg></span>
+                            </button>
+                        </h3>
+                        <div class="faq-item__panel" id="faq-p4" role="region" aria-labelledby="faq-q4">
+                            <div>
+                                <p class="faq-item__answer">Kamamie Quickfast Homecare provides countrywide home-based care in Kenya. Tell us where you are and we will let you know what we can arrange in your area.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-accordion>
+                        <h3>
+                            <button class="faq-item__btn" type="button" aria-expanded="false" aria-controls="faq-p5" id="faq-q5">
+                                How can I enquire about pricing?
+                                <span class="faq-item__icon" aria-hidden="true"><svg width="15" height="15"><use href="#i-plus"/></svg></span>
+                            </button>
+                        </h3>
+                        <div class="faq-item__panel" id="faq-p5" role="region" aria-labelledby="faq-q5">
+                            <div>
+                                <p class="faq-item__answer">Costs depend on the kind of support and the hours involved. Contact us with your requirements and we will talk through the options available — there is no obligation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="faq-item" data-accordion>
+                        <h3>
+                            <button class="faq-item__btn" type="button" aria-expanded="false" aria-controls="faq-p6" id="faq-q6">
+                                How can I contact your team?
+                                <span class="faq-item__icon" aria-hidden="true"><svg width="15" height="15"><use href="#i-plus"/></svg></span>
+                            </button>
+                        </h3>
+                        <div class="faq-item__panel" id="faq-p6" role="region" aria-labelledby="faq-q6">
+                            <div>
+                                <p class="faq-item__answer">Call <a href="tel:+254704232430">+254 704 232 430</a>, WhatsApp <a href="https://wa.me/254715240358">+254 715 240 358</a>, or send an enquiry through the form below. We are open 24 hours, Monday to Sunday.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===================== Contact / enquiry ===================== -->
+        <section class="section" id="contact" aria-labelledby="contact-title">
+            <div class="container contact__inner">
+                <div class="contact__content">
+                    <p class="eyebrow">Contact us</p>
+                    <h2 class="h2" id="contact-title">Let&rsquo;s Find the Right Support Together.</h2>
+                    <p class="lead">Tell us a little about your situation and we will get back to you. There is no obligation — just an honest conversation about what would help.</p>
+
+                    <div class="contact__channels">
+                        <div class="contact-channel">
+                            <span class="contact-channel__icon" aria-hidden="true"><svg width="21" height="21"><use href="#i-phone"/></svg></span>
+                            <div>
+                                <span class="contact-channel__label">Phone</span>
+                                <span class="contact-channel__value"><a href="tel:+254704232430">+254 704 232 430</a></span>
+                                <span class="contact-channel__hint">Available 24 hours, Monday – Sunday</span>
+                            </div>
+                        </div>
+                        <div class="contact-channel">
+                            <span class="contact-channel__icon" aria-hidden="true"><svg width="21" height="21"><use href="#i-whatsapp"/></svg></span>
+                            <div>
+                                <span class="contact-channel__label">WhatsApp</span>
+                                <span class="contact-channel__value"><a href="https://wa.me/254715240358">+254 715 240 358</a></span>
+                                <span class="contact-channel__hint">Send a message and we will respond</span>
+                            </div>
+                        </div>
+                        <div class="contact-channel">
+                            <span class="contact-channel__icon" aria-hidden="true"><svg width="21" height="21"><use href="#i-pin"/></svg></span>
+                            <div>
+                                <span class="contact-channel__label">Service area</span>
+                                <span class="contact-channel__value">Kenya — countrywide homecare</span>
+                                <span class="contact-channel__hint">Tell us your location and we will confirm what we can arrange</span>
+                            </div>
+                        </div>
+                        <div class="contact-channel">
+                            <span class="contact-channel__icon" aria-hidden="true"><svg width="21" height="21"><use href="#i-mail"/></svg></span>
+                            <div>
+                                <span class="contact-channel__label">Email</span>
+                                <span class="contact-channel__value placeholder-note">Add email address here</span>
+                                <span class="contact-channel__hint">Please call or WhatsApp us in the meantime</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="enquiry">
+                    <div class="enquiry__form-panel">
+                        <div class="enquiry__head">
+                            <h3 class="enquiry__title">Request Care</h3>
+                            <p class="enquiry__sub">Share a few details and we will be in touch to talk through your needs.</p>
+                        </div>
+
+                        <form id="enquiry-form" class="form-grid" action="https://formspree.io/f/xdkzwvvy" method="POST" novalidate>
+                            <div class="field" data-field="name">
+                                <label class="field__label" for="f-name">Full name <span class="req" aria-hidden="true">*</span></label>
+                                <input type="text" id="f-name" name="name" autocomplete="name" placeholder="Your name" required>
+                                <span class="field__error">Please tell us your name.</span>
+                            </div>
+
+                            <div class="field" data-field="contact">
+                                <label class="field__label" for="f-phone">Phone <span class="req" aria-hidden="true">*</span></label>
+                                <input type="tel" id="f-phone" name="phone" autocomplete="tel" placeholder="e.g. 07XX XXX XXX">
+                                <span class="field__hint">A phone number or an email address is enough.</span>
+                                <span class="field__error">Please provide a phone number or email address so we can reply.</span>
+                            </div>
+
+                            <div class="field" data-field="email">
+                                <label class="field__label" for="f-email">Email <span class="opt">(optional)</span></label>
+                                <input type="email" id="f-email" name="email" autocomplete="email" placeholder="you@example.com">
+                            </div>
+
+                            <div class="field" data-field="service">
+                                <label class="field__label" for="f-service">Support you are looking for <span class="req" aria-hidden="true">*</span></label>
+                                <select id="f-service" name="service" required>
+                                    <option value="" selected disabled>Please choose an option</option>
+                                    <option value="Personal care">Personal Care</option>
+                                    <option value="Elderly care & companionship">Elderly Care &amp; Companionship</option>
+                                    <option value="Assistance with daily activities">Assistance with Daily Activities</option>
+                                    <option value="Household support">Household Support</option>
+                                    <option value="Respite care">Respite Care</option>
+                                    <option value="Specialised / individualised support">Specialised or Individualised Support</option>
+                                    <option value="Not sure yet">Not sure yet</option>
+                                </select>
+                                <span class="field__error">Please choose the kind of support you need.</span>
+                            </div>
+
+                            <div class="field" data-field="message">
+                                <label class="field__label" for="f-message">How can we help? <span class="opt">(optional)</span></label>
+                                <textarea id="f-message" name="message" rows="4" placeholder="A short note about your situation."></textarea>
+                            </div>
+
+                            <div class="form-status" role="status" aria-live="polite"></div>
+
+                            <div class="form-foot">
+                                <button type="submit" class="btn btn--primary btn--lg btn--block">Request Care <svg class="btn-arrow" width="18" height="18" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+                                <p class="form-note">We will only use these details to respond to your enquiry. Please do not include sensitive medical information.</p>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="enquiry__success" aria-live="polite">
+                        <div class="enquiry__success-icon" aria-hidden="true"><svg width="30" height="30"><use href="#i-check"/></svg></div>
+                        <h3>Thank you — your enquiry has been sent.</h3>
+                        <p>A member of our team will be in touch to discuss your needs. If your matter is urgent, please call <a href="tel:+254704232430" class="inline-link">+254 704 232 430</a> or message us on <a href="https://wa.me/254715240358" class="inline-link">WhatsApp</a>.</p>
+                        <div class="enquiry__success-actions">
+                            <a class="btn btn--forest" href="tel:+254704232430">Call us now</a>
+                            <a class="btn btn--outline" href="https://wa.me/254715240358">WhatsApp us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===================== Footer ===================== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer__brand">
+                    <img class="footer__logo" src="/static/img/logo-white.png" width="130" height="46" alt="Kamamie Quickfast Homecare">
+                    <p class="footer__about">Thoughtful, dependable homecare across Kenya. We provide personal care, companionship, daily living support, household help and respite care — so life at home stays comfortable, dignified and independent.</p>
+                    <span class="footer__hours"><svg width="17" height="17" aria-hidden="true"><use href="#i-clock"/></svg> Open 24 hours, Monday – Sunday</span>
+                    <a class="btn btn--primary" href="https://wa.me/254715240358">Chat with us on WhatsApp</a>
+                </div>
+
+                <div>
+                    <h2 class="footer__col-title">Quick links</h2>
+                    <ul class="footer__links">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/about.html">About Us</a></li>
+                        <li><a href="/services.html">Our Services</a></li>
+                        <li><a href="/index.html#why-us">Why Choose Us</a></li>
+                        <li><a href="/contact.html">Contact</a></li>
+                        <li><a href="/privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="footer__col-title">Our services</h2>
+                    <ul class="footer__links">
+                        <li><a href="/services.html#personal-care">Personal Care</a></li>
+                        <li><a href="/services.html#elderly-care">Elderly Care &amp; Companionship</a></li>
+                        <li><a href="/services.html#daily-activities">Daily Activities</a></li>
+                        <li><a href="/services.html#household-support">Household Support</a></li>
+                        <li><a href="/services.html#respite-care">Respite Care</a></li>
+                        <li><a href="/services.html#specialised-support">Specialised Support</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h2 class="footer__col-title">Get in touch</h2>
+                    <ul class="footer__contact">
+                        <li>
+                            <svg width="17" height="17" aria-hidden="true"><use href="#i-phone"/></svg>
+                            <span><a href="tel:+254704232430">+254 704 232 430</a></span>
+                        </li>
+                        <li>
+                            <svg width="17" height="17" aria-hidden="true"><use href="#i-whatsapp"/></svg>
+                            <span><a href="https://wa.me/254715240358">+254 715 240 358</a></span>
+                        </li>
+                        <li>
+                            <svg width="17" height="17" aria-hidden="true"><use href="#i-pin"/></svg>
+                            <span>Countrywide homecare<br>across Kenya</span>
+                        </li>
+                        <li>
+                            <svg width="17" height="17" aria-hidden="true"><use href="#i-mail"/></svg>
+                            <span class="placeholder-note">Add email address here</span>
+                        </li>
                     </ul>
                 </div>
             </div>
-        </div>
-    </nav>
 
-    <main>
-        <style>
-          .main-menu{
-            position: fixed !important;
-            width: 100%;
-            top: 0;
-            left: 0;
-            background: rgba(255,255,255,0.92); backdrop-filter: blur(12px) saturate(180%); -webkit-backdrop-filter: blur(12px) saturate(180%); box-shadow: 0 4px 30px rgba(0,0,0,0.08); border-bottom: 1px solid rgba(255,255,255,0.4);
-            z-index: 10;
-          }
-          .main-menu img{ max-height: 90px; width: auto; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3)); }
-          @media (min-width: 1000px) {
-            .main-menu .nav-link:not(.btn){
-              color: #fff !important;
-            }
-          }
-          .main-menu.scrolled{
-            background-color: #fff !important;
-          }
-          .main-menu.scrolled img{ max-height: 90px; width: auto; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2)); }
-          .main-menu.scrolled .nav-link:not(.btn){
-            color: unset !important;
-          }
-          @media screen and (max-width: 999px) {
-            .navbar-toggler-icon{
-              filter: brightness(0) invert(1);
-            }
-            .main-menu.scrolled .navbar-toggler-icon{
-              filter: unset;
-            }
-          }
-        </style>
-
-        <header class="hero-section" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/static/img/hero-bg.jpg') center/cover no-repeat; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; position: relative;">
-            <div class="container mx-auto">
-              <div class="flex">
-                <div class="w-full lg:w-9/12">
-                  <h1 class="text-white text-4xl lg:text-6xl font-bold leading-tight">
-                    Countrywide Home-Based Medical & Personal Care Services in Kenya<br>
-                    <span class="text-green">Compassionate Care at Home</span>
-                  </h1>
-                  <p class="text-white mt-4 text-lg lg:text-xl">Kamamie Quickfast Homecare provides professional, compassionate homecare services across Kenya.</p>
-                  <div class="mt-6 flex gap-4">
-                    <a href="https://wa.me/254704232430" class="btn btn-green btn-lg">WhatsApp Us</a>
-                    <a href="tel:+254704232430" class="btn btn-blue btn-lg">Call Now</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <section class="slider-contact-section" style="position: absolute; bottom: 0; width: 100%; background: rgba(255,255,255,0.1); backdrop-filter: blur(5px);">
-              <div class="container mx-auto">
-                <div class="flex py-3">
-                  <div class="w-1/2 my-1">
-                    <a href="tel:+254704232430" class="flex items-center gap-2 text-white">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
-                      <span class="hidden lg:flex">+254 704 232 430</span>
-                    </a>
-                  </div>
-                  <div class="w-1/2 my-1">
-                    <a href="https://wa.me/254715240358" class="flex items-center gap-2 text-white">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg>
-                      <span class="hidden lg:flex">+254 715 240 358</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </section>
-        </header>
-
-        <section id="about" class="py-12 lg:py-16">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-8">About Us</h2>
-                <p class="text-center text-gray-700 max-w-3xl mx-auto text-lg">Kamamie Quickfast Homecare provides countrywide home-based medical and personal care services in Kenya. We deliver professional, compassionate care right in the comfort of your home.</p>
-            </div>
-        </section>
-
-        <section id="services" class="py-12 lg:py-16 bg-light">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12">Services Offered</h2>
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="/static/img/wound-care.jpg" alt="Wound Care & Dressing" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-3">Wound Care & Dressing</h3>
-                            <p class="text-gray-600">Professional assessment and management, including a free woundcare specialist review.</p>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="/static/img/nursing-care.jpg" alt="Home Nursing Care" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-3">Home Nursing Care</h3>
-                            <p class="text-gray-600">Clinical nursing support and medication administration.</p>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="/static/img/patient-monitoring.jpg" alt="Patient Monitoring" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-3">Patient Monitoring</h3>
-                            <p class="text-gray-600">Tracking vital signs and managing chronic conditions like diabetes.</p>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="/static/img/elderly-care.jpg" alt="Elderly Care Support" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-3">Elderly Care Support</h3>
-                            <p class="text-gray-600">Compassionate daily assistance and companionship for seniors.</p>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="/static/img/hero-bg.jpg" alt="Medication & Care Support" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-3">Medication & Care Support</h3>
-                            <p class="text-gray-600">Guidance and help with treatment schedules.</p>
-                        </div>
-                    </div>
-                    <div class="bg-white rounded-lg shadow-md overflow-hidden">
-                        <img src="/static/img/consultation.jpg" alt="Homecare Consultation" class="w-full h-48 object-cover">
-                        <div class="p-6">
-                            <h3 class="text-xl font-semibold mb-3">Homecare Consultation</h3>
-                            <p class="text-gray-600">Direct medical advice and follow-up care planning.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="py-12 lg:py-16 bg-white">
-            <div class="container mx-auto px-4">
-                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-8">Contact Information</h2>
-                <div class="max-w-2xl mx-auto bg-light rounded-lg shadow-md p-8">
-                    <div class="space-y-6">
-                        <div class="flex items-start gap-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green mt-1"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" /></svg>
-                            <div>
-                                <h3 class="font-semibold text-lg">Phone / WhatsApp</h3>
-                                <p><a href="tel:+254704232430" class="text-blue-600 hover:underline">+254 704 232 430</a></p>
-                                <p><a href="https://wa.me/254715240358" class="text-blue-600 hover:underline">+254 715 240 358</a></p>
-                            </div>
-                        </div>
-                        <div class="flex items-start gap-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-green mt-1"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 3" /></svg>
-                            <div>
-                                <h3 class="font-semibold text-lg">Hours</h3>
-                                <p>Monday – Sunday (Open 24 hours)</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="mt-8 text-center">
-                        <a href="https://wa.me/254704232430" class="btn btn-green btn-lg inline-flex items-center gap-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg>
-                            Get in Touch
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer class="bg-gray-900 text-white py-8">
-        <div class="container mx-auto px-4">
-            <div class="text-center">
-                <h3 class="text-xl font-semibold mb-4">Kamamie Quickfast Homecare</h3>
-                <p class="mb-2">Providing countrywide home-based medical and personal care services in Kenya</p>
-                <p class="text-sm text-gray-400 mt-4">© 2024 Kamamie Quickfast Homecare. All rights reserved.</p>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Kamamie Quickfast Homecare. All rights reserved.</p>
+                <ul class="footer__legal">
+                    <li><a href="/privacy.html">Privacy Policy</a></li>
+                    <li><a href="/contact.html">Contact Us</a></li>
+                </ul>
             </div>
         </div>
     </footer>
 
-    <script src="/static/js/swiper-bundle.min.js"></script>
-    <script src="/static/js/alpine.min.js"></script>
-    <script>
-        function toggleMenu() {
-            const sidebar = document.getElementById('dashboardSidebar');
-            sidebar.classList.toggle('active');
-        }
-        
-        window.addEventListener('scroll', function() {
-            const nav = document.querySelector('.main-menu');
-            if (window.scrollY > 100) {
-                nav.classList.add('scrolled');
-            } else {
-                nav.classList.remove('scrolled');
-            }
-        });
-    </script>
+    <script src="/static/js/site.js"></script>
 </body>
 </html>

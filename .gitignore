@@ -1,0 +1,6 @@
+.vercel
+
+# Never commit environment files or secrets
+.env
+.env.*
+!.env.example
