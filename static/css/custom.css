@@ -382,6 +382,70 @@ p {
   max-width: 34rem;
 }
 
+/* Office address block */
+.location-address {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1.2rem 1.3rem;
+  background: var(--ivory);
+  border: 1px solid var(--sage-200);
+  border-left: 3px solid var(--gold-500);
+  border-radius: var(--r-md);
+  width: 100%;
+}
+
+.location-address__icon {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  flex: none;
+  border-radius: var(--r-sm);
+  background: var(--forest-700);
+  color: var(--gold-400);
+}
+
+.location-address__label {
+  display: block;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--charcoal-500);
+  margin-bottom: 0.4rem;
+}
+
+.location-address address {
+  font-style: normal;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--charcoal);
+}
+
+.location-address address strong {
+  color: var(--forest-900);
+  font-weight: 700;
+}
+
+.location-address__landmark {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.8125rem;
+  color: var(--charcoal-500);
+}
+
+.footer__address {
+  font-style: normal;
+  line-height: 1.7;
+}
+
+.footer__address strong {
+  color: var(--ivory);
+  font-weight: 700;
+  display: block;
+}
+
 .spaced-block {
   margin-bottom: clamp(2.5rem, 5vw, 3.5rem);
 }

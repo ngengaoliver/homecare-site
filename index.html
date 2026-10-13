@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -37,6 +37,19 @@
       "description": "Countrywide home-based care in Kenya providing personal care, elderly care and companionship, assistance with daily activities, household support and respite care.",
       "url": "https://www.kamamiequickfasthomecare.co.ke/",
       "telephone": "+254704232430",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "May House (Ondiri Building), 1st Floor, Suites 13-14, Kikuyu Road",
+        "addressLocality": "Kikuyu",
+        "addressRegion": "Kiambu",
+        "addressCountry": "KE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -1.242648,
+        "longitude": 36.6655397
+      },
+      "hasMap": "https://www.openstreetmap.org/?mlat=-1.2426480&mlon=36.6655397#map=17/-1.2426480/36.6655397",
       "areaServed": { "@type": "Country", "name": "Kenya" },
       "availableChannel": [
         { "@type": "ServiceChannel", "servicePhone": { "@type": "ContactPoint", "telephone": "+254704232430" } },
@@ -446,6 +459,19 @@
                     <h2 class="h2" id="location-title">Care That Comes to You, Across Kenya</h2>
                     <p class="lead">Kamamie Quickfast Homecare is a home-based service. We do not ask you to travel to us — our carers come to your door, wherever home happens to be.</p>
 
+                    <div class="location-address">
+                        <span class="location-address__icon" aria-hidden="true"><svg width="19" height="19"><use href="#i-pin"/></svg></span>
+                        <div>
+                            <span class="location-address__label">Our office</span>
+                            <address>
+                                <strong>May House (Ondiri Building), 1st Floor</strong><br>
+                                Suites 13–14, Kikuyu Road<br>
+                                Kikuyu, Kenya
+                            </address>
+                            <span class="location-address__landmark">Opposite Family Bank</span>
+                        </div>
+                    </div>
+
                     <div class="location__points">
                         <div class="location-point">
                             <span class="location-point__icon" aria-hidden="true"><svg width="19" height="19"><use href="#i-pin"/></svg></span>
@@ -476,11 +502,11 @@
 
                 <div class="location__map">
                     <iframe
-                        title="Map showing Kamamie Quickfast Homecare service coverage across Kenya"
-                        src="https://www.openstreetmap.org/export/embed.html?bbox=33.800%2C-4.900%2C42.100%2C5.200&amp;layer=mapnik&amp;marker=-0.0236%2C37.9062"
+                        title="Map showing the Kamamie Quickfast Homecare office in Kikuyu, Kenya, and our nationwide service area"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=36.5900%2C-1.3100%2C36.7400%2C-1.1700&amp;layer=mapnik&amp;marker=-1.2426480%2C36.6655397"
                         referrerpolicy="no-referrer-when-downgrade"
                         allowfullscreen></iframe>
-                    <a class="location__map-link" href="https://www.openstreetmap.org/?mlat=-0.0236&amp;mlon=37.9062#map=6/-0.0236/37.9062" target="_blank" rel="noopener">
+                    <a class="location__map-link" href="https://www.openstreetmap.org/?mlat=-1.2426480&amp;mlon=36.6655397#map=14/-1.2426480/36.6655397" target="_blank" rel="noopener">
                         View larger map
                         <svg width="14" height="14" aria-hidden="true"><use href="#i-arrow"/></svg>
                     </a>
@@ -640,6 +666,18 @@
                             </div>
                         </div>
                         <div class="contact-channel">
+                            <span class="contact-channel__icon" aria-hidden="true"><svg width="21" height="21"><use href="#i-pin"/></svg></span>
+                            <div>
+                                <span class="contact-channel__label">Our office</span>
+                                <span class="contact-channel__value">
+                                    May House (Ondiri Building), 1st Floor<br>
+                                    Suites 13–14, Kikuyu Road<br>
+                                    Kikuyu, Kenya
+                                </span>
+                                <span class="contact-channel__hint">Opposite Family Bank — <a class="inline-link" href="https://www.openstreetmap.org/?mlat=-1.2426480&amp;mlon=36.6655397#map=17/-1.2426480/36.6655397" target="_blank" rel="noopener">get directions</a></span>
+                            </div>
+                        </div>
+                        <div class="contact-channel">
                             <span class="contact-channel__icon" aria-hidden="true"><svg width="21" height="21"><use href="#i-mail"/></svg></span>
                             <div>
                                 <span class="contact-channel__label">Email</span>
@@ -769,7 +807,7 @@
                         </li>
                         <li>
                             <svg width="17" height="17" aria-hidden="true"><use href="#i-pin"/></svg>
-                            <span>Countrywide homecare<br>across Kenya</span>
+                            <span class="footer__address"><strong>Our office</strong>May House (Ondiri Building), 1st Floor<br>Suites 13–14, Kikuyu Road, Kikuyu, Kenya</span>
                         </li>
                         <li>
                             <svg width="17" height="17" aria-hidden="true"><use href="#i-mail"/></svg>
