@@ -24,11 +24,11 @@
 </head>
 
 <body class="overflow-x-hidden">
-    <nav class="main-menu lg:sticky py-4 bg-white z-10 top-0 w-screen">
+    <nav class="main-menu lg:sticky py-3 z-10 top-0 w-screen" style="background: rgba(255,255,255,0.95); backdrop-filter: blur(10px) saturate(180%); -webkit-backdrop-filter: blur(10px) saturate(180%); box-shadow: 0 4px 30px rgba(0,0,0,0.1); border-bottom: 1px solid rgba(255,255,255,0.3);">
         <div class="container mx-auto w-full">
             <div class="flex items-center justify-between w-full py-2 lg:py-0">
                 <a href="/">
-                    <img src="/static/img/banner-logo.png" alt="Kamamie Quickfast Homecare logo" height="50px" width="auto" />
+                    <img src="/static/img/banner-logo.png" alt="Kamamie Quickfast Homecare logo" style="height:90px;width:auto;max-height:90px;filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));"> />
                 </a>
                 <button class="mobile-nav-toggler lg:hidden" type="button" onclick="toggleMenu()">
                     <span class="navbar-toggler-icon"></span>
@@ -63,7 +63,7 @@
             background-color: transparent !important;
             z-index: 10;
           }
-          .main-menu img{ max-height: 50px; width: auto; }
+          .main-menu img{ max-height: 90px; width: auto; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3)); }
           @media (min-width: 1000px) {
             .main-menu .nav-link:not(.btn){
               color: #fff !important;
@@ -72,7 +72,7 @@
           .main-menu.scrolled{
             background-color: #fff !important;
           }
-          .main-menu.scrolled img{ filter: unset; max-height: 50px; width: auto; }
+          .main-menu.scrolled img{ max-height: 90px; width: auto; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2)); }
           .main-menu.scrolled .nav-link:not(.btn){
             color: unset !important;
           }
