@@ -631,9 +631,15 @@ p {
 }
 
 .brand__logo {
-  height: 58px;
+  height: 46px;
   width: auto;
   display: block;
+}
+
+@media (max-width: 420px) {
+  .brand__logo {
+    height: 38px;
+  }
 }
 
 .nav {
