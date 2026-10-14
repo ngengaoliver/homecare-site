@@ -1,4 +1,4 @@
-/* Kamamie Quickfast Homecare — site interactions */
+﻿/* Kamamie Quickfast Homecare — site interactions */
 (function () {
   "use strict";
 
@@ -124,8 +124,8 @@
 
   /* ------------------------------------------------------------ enquiry form */
   var FORMSPREE = "https://formspree.io/f/xdkzwvvy";
-  var WHATSAPP_NUMBER = "254715240358";
-  var PHONE_DISPLAY = "+254 704 232 430";
+  var WHATSAPP_NUMBER = "254711105620";
+  var PHONE_DISPLAY = "+254 711 105620";
 
   var form = document.getElementById("enquiry-form");
   if (!form) return;
@@ -190,7 +190,7 @@
       "<span><strong>We could not send that through the online form.</strong>" +
       "<span>Your details are safe — nothing was lost. You can still reach us straight away:</span>" +
       '<span class="form-status__actions">' +
-      '<a class="btn btn--forest" href="tel:+254704232430">Call ' +
+      '<a class="btn btn--forest" href="tel:+254711105620">Call ' +
       PHONE_DISPLAY +
       "</a>" +
       '<a class="btn btn--primary" href="' +
